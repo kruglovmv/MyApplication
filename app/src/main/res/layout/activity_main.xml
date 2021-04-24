@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -52,6 +51,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="20dp"
                 android:backgroundTint="#F41414"
+                android:onClick="push"
                 android:text="@string/button_1" />
         </LinearLayout>
 
@@ -103,8 +103,7 @@
                 android:id="@+id/toggleButton_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:rotationX="25"
-                android:text="@string/togglebutton_1" />
+                android:rotationX="25" />
 
 
         </LinearLayout>

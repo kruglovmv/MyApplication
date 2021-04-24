@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="textView_1" type="id">This is my TextView</item>
-    <item name="editText_1" type="id">editText_1</item>
-    <item name="button_1" type="id">button_1</item>
-    <item name="checkBox_1" type="id">checkBox_1</item>
-    <item name="switch1_1" type="id">switch1_1</item>
-    <item name="textView_2" type="id">textView_2</item>
-    <item name="toggleButton_1" type="id">toggleButton_1</item>
+<!--    <item name="textView_1" type="id">This is my TextView</item>-->
+<!--    <item name="editText_1" type="id">editText_1</item>-->
+<!--&lt;!&ndash;    <item name="button_1" type="id">button_1</item>&ndash;&gt;-->
+<!--    <item name="checkBox_1" type="id">checkBox_1</item>-->
+<!--    <item name="switch1_1" type="id">switch1_1</item>-->
+<!--    <item name="textView_2" type="id">textView_2</item>-->
+<!--    <item name="toggleButton_1" type="id">toggleButton_1</item>-->
 </resources>
