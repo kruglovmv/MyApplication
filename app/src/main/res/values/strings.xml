@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="textView_1">This is my TextView!</string>
+    <string name="editText_1">This my EditText!</string>
+    <string name="button_1">Push</string>
+    <string name="togglebutton_1">Press</string>
+    <string name="switch_1">Turn me one</string>
+    <string name="checkbox_1">Check me one</string>
 </resources>

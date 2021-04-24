@@ -1,18 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/ic_launcher_round"
+    android:foregroundTint="#AE1D1D"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_1"
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:layout_margin="2dp"
+                android:background="#F8F2F2"
+                android:gravity="left"
+                android:paddingHorizontal="10dp"
+                android:text="@string/textView_1"
+                android:textColor="#070707"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/editText_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:selectAllOnFocus="false"
+                android:singleLine="false"
+                android:text="@string/editText_1"
+                android:textAlignment="center"
+                android:autofillHints="@string/textView_1">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:backgroundTint="#F41414"
+                android:text="@string/button_1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TableRow>
+
+                    <CheckBox
+                        android:id="@+id/checkBox_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/checkbox_1" />
+
+                    <Switch
+                        android:id="@+id/switch1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/switch_1"
+                        tools:ignore="UseSwitchCompatOrMaterialXml" />
+                </TableRow>
+            </TableLayout>
+
+
+            <TextView
+                android:id="@+id/textView_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="#CDDC39"
+                android:gravity="center"
+                android:paddingHorizontal="10dp"
+                android:text="@string/textView_1"
+                android:textColor="#070707"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rotationX="25"
+                android:text="@string/togglebutton_1" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
