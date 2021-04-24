@@ -5,6 +5,6 @@
     <string name="button_1">Push</string>
     <string name="switch_1">Turn me one</string>
     <string name="checkbox_1">Check me one</string>
-    <string name="about_title_1">This is SecondActivity</string>
-    <string name="about_title_2">This is CalendarActivity</string>
+    <string name="title_1">This is SecondActivity</string>
+    <string name="title_2">This is CalendarActivity</string>
 </resources>

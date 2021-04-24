@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/ic_launcher_round"
+    android:background="@drawable/ic_launcher_background"
     android:foregroundTint="#AE1D1D"
     tools:context=".MainActivity">
 
@@ -36,11 +36,12 @@
                 android:id="@+id/editText_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:autofillHints="@string/textView_1"
+                android:background="#F8F2F2"
                 android:selectAllOnFocus="false"
                 android:singleLine="false"
                 android:text="@string/editText_1"
-                android:textAlignment="center"
-                android:autofillHints="@string/textView_1">
+                android:textAlignment="center">
 
             </EditText>
 
@@ -53,6 +54,14 @@
                 android:backgroundTint="#F41414"
                 android:onClick="push"
                 android:text="@string/button_1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="293dp"
+                android:nestedScrollingEnabled="false"
+                android:nextFocusLeft="@id/button"
+                tools:srcCompat="@drawable/ic_launcher_foreground" />
         </LinearLayout>
 
         <LinearLayout
@@ -103,6 +112,7 @@
                 android:id="@+id/toggleButton_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="shutdown"
                 android:rotationX="25" />
 
 
