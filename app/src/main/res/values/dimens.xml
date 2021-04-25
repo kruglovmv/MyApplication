@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_width">70dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="layout_marginButton">13dp</dimen>
+    <dimen name="layout_marginTop">380dp</dimen>
+    <dimen name="layout_marginEnd">10dp</dimen>
+    <dimen name="layout_marginStart">10dp</dimen>
+    <dimen name="layout_marginBottomEnd">112dp</dimen>
+    <dimen name="button_textSize">28sp</dimen>
+</resources>
