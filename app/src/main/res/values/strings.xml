@@ -1,4 +1,3 @@
 <resources>
     <string name="app_name">Calculator</string>
-    <string name="text_textView">123456789,0</string>
-</resources>
+   </resources>

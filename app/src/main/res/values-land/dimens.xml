@@ -2,8 +2,7 @@
 <resources>
     <dimen name="button_width">70dp</dimen>
     <dimen name="button_height">60dp</dimen>
-    <dimen name="layout_marginTop_button">380dp</dimen>
     <dimen name="layout_margin_button">10dp</dimen>
-    <dimen name="layout_marginBottomEnd_button">112dp</dimen>
+    <dimen name="layout_marginTop_button">380dp</dimen>
     <dimen name="button_textSize">28sp</dimen>
 </resources>
